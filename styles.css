@@ -1,0 +1,449 @@
+div h1, div h5, div h6 {
+    font-family: 'Montserrat';
+}
+
+div h3, div h4 {
+    font-family: 'Comfortaa';
+    font-weight: 200;
+}
+
+div h5 {
+    font-weight
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+ul {
+    font-family: 'Raleway';
+    list-style-type: none;
+    padding: 0 10px 0 0;
+}
+
+hr {
+    width: 100%;
+}
+
+div.container {
+  font-family: 'Raleway';
+  padding: 50px;
+  width: 900px;
+}
+
+.copper {background-color: #844D36;}
+.copper-text {color: #844D36;}
+
+.navy {background-color: #474853;}
+.navy-text {color: #474853;}
+
+.dark-navy {background-color: #27292E;}
+.dark-navy-text {color: #27292E;}
+
+.powder {background-color: #86B3D1;}
+.powder-text {color: #86B3D1;}
+
+.taupe {background-color: #AAA0A0;}
+.taupe-text {color: #AAA0A0;}
+
+.olive {background-color: #8E8268;}
+.olive-text {color: #8E8268;}
+.olive-border-top {border-top: 1px solid #8E8268;}
+
+.gray {background-color: #DEDEDE;}
+.gray-text {color: #DEDEDE;}
+
+.white {background-color: #FFFFFF;}
+.gradient {background-image: linear-gradient(to bottom, #FFFFFF, #DEDEDE);}
+
+.co {font-family: 'Comfortaa';}
+.ra {font-family: 'Raleway';}
+.mo {font-family: 'Montserrat';}
+
+.thin {font-weight: 200;}
+.regular {font-weight: 400;}
+.bold {font-weight: 700;}
+.extra-bold {font-weight: 900;}
+
+.italic {
+    font-style: italic;
+}
+
+.line-break {
+    display: inline-block;
+}
+
+.sm-text {
+    font-size: 14px;
+}
+
+.sm-header {
+    font-size: 20px;
+}
+
+.md-header {
+    font-size: 30px;
+}
+
+.xl-header {
+    font-size: 70px;
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+.navbar-nav {
+    padding-right: 0;
+}
+
+.nav-link {
+    padding-top: 15px !important;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    background-color: #86B3D1;
+    color: #27292E;
+}
+
+.active {
+    background-color: #27282E;
+}
+
+.photo-bg {
+   background: no-repeat fixed url(images/background.jpg);
+   background-size: cover;
+}
+
+.overlay-section {
+    background: rgba(71,72,83,.5);
+    overflow: hidden;
+    height: 100%;
+}
+
+#banner .container {
+    position: relative;
+    width: 100%;
+    top: 30%;
+    z-index: 4;
+    text-align: left;
+}
+
+#banner {
+    background: no-repeat fixed url(images/background.jpg);
+    border-radius: 0;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#banner .overlay-section {
+    background: rgba(71,72,83,.3);
+}
+
+#banner h1 {
+    font-family: 'Comfortaa';
+    font-size: 5rem;
+    font-weight: 300;
+    display: inline-block;
+    text-shadow: 0px 3px 5px #000000;
+}
+
+#banner .vertical {
+    border-left: 2px solid #86B3D1;
+}
+
+#banner-tag {
+    padding-left: 20px;
+    border-left: 2px solid #86B3D1;
+}
+
+#banner h2 {
+    text-shadow: 0px 3px 5px #000000;
+    font-family: 'Montserrat';
+    font-size: 1.45rem;
+    color: #FFFFFF;
+}
+
+#banner h2 span {
+    font-size: 1.9rem;
+}
+
+.title-row {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#profile .title-row + .row {
+    margin-bottom: 20px;
+}
+
+#profile-stats li .label {
+    display: inline-block;
+    width: 35%;
+    margin-right: 10px;
+}
+
+#profile-stats li .value {
+    white-space: nowrap;
+    display: block;
+    width: 60%;
+}
+
+#profile-stats li .value div span {
+   display: block;    
+   float: right;
+}
+
+.resume-download-btn {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.resume-download-btn:hover {
+    background-color: #8E8268;
+    color: white;
+}
+
+.resume-download-btn i {
+    vertical-align: middle; 
+}
+
+.resume-download-btn p {
+    display: inline;
+    white-space: nowrap;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #8E8268;
+    border-radius: 15px;
+    display: block;
+}
+
+.certs-col .value {
+    display: inline-block;
+}
+
+#certs-col img {
+    margin-right: 5px;
+}
+
+#cert-section span + span {
+    word-wrap: nowrap;
+}
+
+.cert-section a:hover {
+    color: #8E8268;
+}
+
+.about-section {
+    margin-top: 30px;
+}
+
+.about-section a {
+    color: #844D36;
+}
+
+.about-section a:hover {
+    color: #474853;
+    text-decoration: none;
+}
+
+.about-me-header i {
+    margin-right: 10px;
+}
+
+.title-row + .company-section {
+    margin-bottom: 60px;
+}
+
+.company-section + hr {
+    margin-bottom: 70px;
+}
+
+.position-section ~ .position-section {
+    margin-top: 45px;
+}
+
+.company-stats {
+    margin-bottom: 25px;
+}
+
+.company-stats h4 {
+    font-weight: 700;
+}
+
+.company-stats h4 {
+    color: #FFFFFF;
+}
+
+.company-stats h5 {
+    font-family: 'Raleway';
+    margin-top: -10px;
+    color: #DEDEDE;
+}
+
+.position-stats h5 {
+    margin-bottom: 3px;
+    color: #FFFFFF;
+}
+
+.position-stats p:first-of-type {
+    margin-bottom: 0px;
+    color: #DEDEDE;
+}
+
+.position-stats p:last-of-type {
+    margin-top: -5px;
+    color: #85B3D1;
+}
+
+#experience .details-section {
+    color: #DEDEDE;
+}
+
+.details-section ul {
+    margin-left: 15px;
+}
+
+.details-section li ~ li{
+   margin-top: 20px;
+}
+
+#aws-services-list li {
+    margin: 0px;
+}
+
+.school-stats h4 {
+    margin-bottom: 0px;
+}
+
+.school-stats h5 {
+    margin-bottom: 0px;
+}
+
+.school-stats p:first-of-type {
+    margin-bottom: 0px;
+}
+
+.school-stats p:last-of-type {
+    margin-top: -5px;
+}
+
+.degree-details h5 {
+    margin-bottom: 0px;
+}
+
+#skills div ~ div {
+    margin: 0 auto;
+}
+
+#skills .row:last-child {
+    margin-top: 50px;
+}
+
+#skills .label {
+   vertical-align: top;
+   display: inline-block;
+   width: 40%;
+   margin-right: 10px;
+   color: #DEDEDE;
+}
+
+#skills .value {
+    vertical-align: sub;
+    display: inline-block;
+    width: 45%;
+    white-space: nowrap;
+    color: #DEDEDE;
+}
+
+#ratings-modal-link {
+    color: #FFFFFF;
+}
+
+#ratings-modal-link:hover {
+    text-decoration: none;
+    color: #86B3D1;
+}
+
+#ratings-modal-link i {
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#contact-info .label {
+    display: inline-block;
+    width: 10%;
+}
+
+#contact-info .value {
+    display: inline-block;
+    width: 85%;
+}
+
+.contact-item {
+    margin-bottom: 5px;
+}
+
+.contact-link .label {
+    text-align: center;
+    vertical-align: top;
+}
+
+.contact-link .label img {
+    margin-bottom: 6px;
+}
+
+.contact-link {
+    color: #FFFFFF;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: #86B3D1;
+}
+
+.modal-header {
+    border-bottom: 1px solid #8E8268 !important;
+}
+
+.modal-header h4 {
+    font-family: "Raleway";
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.modal-header button {
+  margin-top: 5px;
+}
+
+.modal-body ul a {
+    color: #86B3D1;
+}
+
+#ratings-modal .modal-content {
+  width: 575px;
+}
+
+#ratings-modal .row:first-child {
+    margin-top: 15px;
+}
+
+#ratings-modal .ratings-name {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+#ratings-modal .ratings-desc {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
